@@ -37,7 +37,7 @@ export class AuthService{
     }
 
     // get the user is logged in 
-    async getcurrentUser () {
+    async getCurrentUser () {
         try {
             console.log('this in running');
             return await this.account.get(ID.unique());

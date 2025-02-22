@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import service from '../appwriteReasouces/appwrite_config'
-import { Container } from '../components/container/Container'
+import Container from '../components/container/Container'
 
 export default function Home() {
     console.log("home is running")
